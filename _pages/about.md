@@ -2,7 +2,7 @@
 title: "About Me"
 permalink: /about/
 excerpt: "Lance Aven is an MS Data Science Student in the Asian Institute of Management"
-layout: single
+# layout: single
 author_profile: true
 sitemap: true
 modified: 2019-08-29
