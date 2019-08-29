@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "default", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "default", "dark", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -108,26 +108,26 @@ analytics:
 # Site Author
 author:
   name             : "Lance Aven Sy"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am a Data Science Student."
-  location         : "Philippines"
+  avatar           : "/images/profile/profile.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "MS Data Science Student."
+  location         : "Asian Institute of Management"
   email            :
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: mailto:lsy@aim.edu
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/lpsy/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/lpsy"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       url: "https://facebook.com/lanceaven"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/lpsy"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: mailto:lsy@aim.edu
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -135,24 +135,24 @@ author:
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      url: "https://facebook.com/lanceaven"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/lpsy/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/lpsy"
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      # url: "https://twitter.com/"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      url: "https://facebook.com/lanceaven"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: mailto:lsy@aim.edu
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url:
+      # url: "https://instagram.com/"
 
 
 # Reading Files
