@@ -1,6 +1,6 @@
 ---
 title: "About Me"
-permalink: /
+permalink: /about/
 excerpt: "Lance Aven is an MS Data Science Student in the Asian Institute of Management"
 layout: single
 author_profile: true
