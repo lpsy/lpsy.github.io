@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    }
+h1 {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 1.75;
+}
+
+/* div#container {} */
+
+/* Default for Mobile Device */
+div#column {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding: 5px;
+}
+
+section.box {
+    /* position: relative; */
+    background-color: #c8d0d9;
+    width: 100%;
+    border: 1px  solid black;
+    padding: 0 0 2px 2px;
+}
+
+p#chicken {
+    float: right;
+    width: 40%;
+    padding: 2px;
+    border: 1px  solid black;
+    border-top: 0;
+    border-right: 0;
+    background-color: #ffbc79;
+    text-align: center;
+    font-size: 1.25em;
+}
+
+p#beef {
+    float: right;
+    width: 40%;
+    padding: 2px;
+    background-color: #a3cce9;
+    border: 1px  solid black;
+    border-top: 0;
+    border-right: 0;
+    text-align: center;
+    font-size: 1.25em;
+
+}
+
+p#sushi {
+    float: right;
+    width: 40%;
+    padding: 2px;
+    background-color: #8ace7e;
+    border: 1px  solid black;
+    border-top: 0;
+    border-right: 0;
+    text-align: center;
+    font-size: 1.25em;
+}
+
+p.content {
+    color: black;
+    clear: both;
+    margin: 35px 2px 2px 2px;
+}
+
+/* Tablet Device */
+@media (min-width: 768px) and (max-width: 991px) {
+    div#column:nth-child(1), div#column:nth-child(2){
+        width: 50%;
+        float: left;
+    }
+
+    div#column:nth-child(3) {
+        width: 100%;
+        float: left;
+    }
+
+}
+
+/* Large Device */
+@media (min-width: 992px) {
+    div#column {
+        width: 33.3%;
+        float: left;
+    }
+
+}
