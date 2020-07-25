@@ -1,0 +1,104 @@
+body {
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #a0a0a0;
+  border-radius: 0;
+  border: 1px solid black;
+  border-bottom: 3px solid black;
+}
+
+.navbar-brand {
+  vertical-align: middle;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Comic Neue', cursive;
+  color: black;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+button.navbar-toggle.collapsed {
+  border: 2px solid black;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: black;
+  height: 3px;
+  width: 27px;
+}
+
+#bs-example-navbar-collapse-1 > ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: black;
+  font-family: 'Comic Neue', cursive;
+  font-size: 1.3em;
+  text-align: center;
+}
+
+.navbar-default .navbar-nav>li {
+  border-bottom: 1px solid black;
+}
+
+.navbar-default .navbar-nav>li:hover {
+  background-color: #8b8b8b88;
+}
+
+.navbar-default .navbar-nav>:last-child {
+  border-bottom: 0;
+}
+
+.navbar-default .navbar-toggle:hover {
+  background-color: #a0a0a0;
+}
+
+.navbar-default .navbar-toggle:focus {
+  border-color: black;
+  background-color:  #a0a0a0;
+}
+
+.navbar-default .navbar-toggle:hover .icon-bar {
+  background-color: rgb(190, 190, 190);
+}
+
+h2 {
+  font-family: 'Comic Neue', cursive;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: 'Comic Neue', cursive;
+  font-weight: bold;
+}
+
+div.container-fluid {
+  padding-bottom: 15px;
+}
+
+div.col-xs-12 {
+  border: 2px solid black;
+  background-color: #a0a0a0cc;
+}
+
+@media (max-width: 767px){
+  .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-top: 3px solid black;
+    background-color: white;
+  }
+}
